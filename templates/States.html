@@ -1,0 +1,71 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian_States_Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link  rel="stylesheet" href="{% static 'css/states.css' %}">
+
+</head>
+<body>
+    <center><h1>Indian_States</h1>
+        <br>
+        <caption><img src="{% static 'images/India_map.jpg' %}" title="India Map" width="500px" height="500px"></a><figcaption >India MAP</figcaption></caption>
+
+    </center>
+    <br>
+    <h1><u>Introduction</u></h1>
+    <h3 >This project is designed by me using Frontend Technologies(HTML,CSS,JS) and backend Technology(Python) and a  basic Django framework.The main idea of this project is to represent a webpage which consists of all states of India and access each state from this webpage.</h3>
+    <div>    
+    <div id="Andhra.Pradesh">
+        <a href="{% url 'Andhra_Pradesh' %}"><h2>Andhra Pradesh</h2></a>
+        <br>
+        <a href="{% url 'Andhra_Pradesh' %}"><caption><img src="{% static 'images/Map_Andhra-Pradesh.jpg' %}" title="Andhra Pradesh Map" width="400px" height="400pxpx"></a><figcaption >Andhra Pradesh MAP</figcaption></caption>
+         
+    </div>
+    
+    <div id="Telangana">
+        <a href="{% url 'Telangana' %}"><h2>Telangana</h2></a>
+        <br>
+        <a href="{% url 'Telangana' %}"><caption><img src="{% static 'images/Telangana_map.jpg' %}" title="Telangana Map" width="400px" height="400px"></a><figcaption >Telangana MAP</figcaption></caption>
+         
+    </div>
+
+    <div id="Tamilnadu">
+        <a href="{% url 'TamilNadu' %}"><h2>TamilNadu</h2></a>
+        <br>
+        <a href="{% url 'TamilNadu' %}"><caption><img src="{% static 'images/TamilNadu_map.jpg' %}" title="TamilNadu Map" width="400px" height="400px"></a><figcaption >TamilNadu MAP</figcaption></caption>
+         
+    </div>
+
+    <div id="Karnataka">
+        <a href="{% url 'Karnataka' %}"><h2>Karnataka</h2></a>
+        <br>
+        <a href="{% url 'Karnataka' %}"><caption><img src="{% static 'images/Karnataka_map.jpg' %}" title="Karnataka Map" width="400px" height="400px"></a><figcaption >Karnataka MAP</figcaption></caption>
+         
+    </div>
+
+    <div id="Kerala">
+        <a href="{% url 'Kerala' %}"><h2>Kerala</h2></a>
+        <br>
+        <a href="{% url 'Kerala' %}"><caption><img src="{% static 'images/Kerala_map.jpg' %}" title="Kerala Map" width="400px" height="400px"></a><figcaption >Kerala MAP</figcaption></caption>
+         
+    </div>
+
+    <div id="Maharastra">
+        <a href="{% url 'Maharastra' %}"><h2>Maharastra</h2></a>
+        <br>
+        <a href="{% url 'Maharastra' %}"><caption><img src="{% static 'images/Maharastra_map.jpg' %}" title="Maharastra Map" width="400px" height="400px"></a><figcaption >Maharastra MAP</figcaption></caption>
+         
+    </div>
+    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</body>
+</html>

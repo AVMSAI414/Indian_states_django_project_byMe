@@ -1,0 +1,13 @@
+h1{
+    color: rgb(8, 32, 93);
+}
+center>h1{
+    color: green;
+}
+h3{
+    color: chocolate;
+}
+div{
+    float: left;
+    padding: 50px 50px ;
+}
